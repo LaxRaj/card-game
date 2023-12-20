@@ -10,22 +10,39 @@ export default function Login() {
 
             {/* login form  */}
             <div class= "login-box">
-                <h1 className='header'> BlackJack *</h1>
+                <form class= "total-form">
+                    <h1 className='header'> BlackJack *</h1>
+                    
+                        <table class="table-input">
+                            <tr>
+                                <td>
+                                    Username
+                                </td>
+                                <td>
+                                    <input type="text" id="username" name="username" required/>
+                                </td>
 
-                
-                <form>
-                    <div class= "login-group">
-                        <label> Username </label>
-                        <input type="text" id="username" name="username" required/>
-                    </div>
+                            </tr>
 
-                    <div class="login-group">
-                    <label> password </label>
-                        <input type="text" id="password" name="password" required/>
-                    </div>
 
-                    <div class="login-group">
-                        <button type="submit"> login</button>
+                            <tr>
+                                <td>
+                                    Password
+                                </td>
+                                <td>
+                                    <input type="text" id="password" name="password" required/>
+                                </td>
+
+                            </tr>
+
+                        </table>
+    
+                   
+
+                    
+
+                    <div class="login-button">
+                        <button type="submit"> Login</button>
                      </div>
                 </form>
                 

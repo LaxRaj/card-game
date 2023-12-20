@@ -10,8 +10,11 @@ export default function Home() {
     <main className="main">
       {/* Nav */}
         
-      {/* Login  */}
+      {/* Login  */}  
 
+      <Login/>
+      
+       
       {/* Play Button  */}
 
       {/*  */}
