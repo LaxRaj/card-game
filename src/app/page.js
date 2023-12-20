@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <main className="main">
       {/* Nav */}
-
+        
       {/* Login  */}
 
       {/* Play Button  */}
